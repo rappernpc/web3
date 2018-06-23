@@ -1,0 +1,57 @@
+html(lang='en')
+head
+
+  
+    
+  meta(charset='utf-8')
+  title Chris Garbutt Web Thr33
+  meta(name='description' content='')
+  meta(name='author' content='')
+  meta(name='viewport', content='width=device-width', initial-scale='1')
+
+  link(href='//fonts.googleapis.com/css?family=Raleway:400,300,600', rel='stylesheet', type='text/css')
+
+  link(rel='stylesheet', href='css/normalize.css')
+  link(rel='stylesheet', href='css/skeleton.css')
+  link(rel='stylesheet', href='css/altcss.css')
+  //link(rel='icon', type='image/png', href='static/images/favicon.png')
+  
+  script(src='http://d3js.org/d3.v3.min.js', charset='utf-8')
+  //script(src='/scripts/jquery-1.10.2.min.js')
+  
+  //script(type='text/javascript')
+    include scripts/visuals.js
+  
+  
+  body
+
+    //Primary Page Layout
+      
+    #nav-bar-title
+      #nav-content
+        .two.columns
+          h1#title CG  
+	    
+        #nav.fourteen.columns
+          ul
+            li: a(href='/data') Home
+            li: a(href='/loaddata') Load Data
+            li: a(href='/inspirations') inspirations
+	      
+	    
+	
+    .container
+      #Image.twelve.columns
+        #pagecontainer
+
+          h2 data loaded
+          //p#chart(style='max-width: 645px; z-index: 100;')
+
+
+    footer.footer-basic-centered
+      p.footer-company-motto Made with agony by Chris Garbutt
+      p.footer-company-name garbca1@student.op.ac.nz 	
+  
+
+//End Document
+
